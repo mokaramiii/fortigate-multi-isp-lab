@@ -1,0 +1,23 @@
+task1:
+ISP1 = All Users
+
+-------------------------------------------
+
+task2: 
+ISP1 = distance 10
+ISP2 = distance 20
+ISP3 = distance 30
+
+---------------------------------------
+
+task3:
+USERS = ISP1 , ISP2 , ISP3
+INFRA = SW_ISP_TCI
+
+---------------------------------------
+
+task4:
+vlan 10 , vlan 20 = ISP1
+vlan 30 = ISP2
+vlan 40 = ISP3
+INFRA = TCI (basic port7 , backup port8)
